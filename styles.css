@@ -1,9 +1,41 @@
 /* Reset some default browser styles */
-body, h1, h2, h3, p, ul, li {
+h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
 
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    position: relative;
+    animation: bounce 2s infinite alternate;
+    cursor: pointer;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .box:hover {
+    animation-play-state: paused;
+    background-color: #e74c3c;
+  }
 /* Set a background color and basic font styles */
 body {
     background-color: #f4f4f4;
