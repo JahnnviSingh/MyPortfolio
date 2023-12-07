@@ -1,6 +1,6 @@
 /* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li {
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 
