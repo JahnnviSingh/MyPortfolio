@@ -1,7 +1,12 @@
 /* Reset some default browser styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 10px;
-    padding: 0;
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0; 
+}
+
+a {
+  text-decoration: none;   
+  color: blue;
 }
 
 /* Set a background color and basic font styles */
@@ -15,6 +20,10 @@ header {
     background-color: #333;
     color: white;
     padding: 1rem;
+}
+
+section {
+  margin-left: 5px;
 }
 
 nav ul {
@@ -31,6 +40,18 @@ nav a {
     color: white;
 }
 
+#about p, #education div, #experience div{
+    margin-left: 15px;
+}
+
+#projects li, #certifications li, #skills li, #achievements li {
+    margin-left: 25px;
+}
+
+#cerifications a {
+    text-decoration: none;
+    color: blue;
+}
 
 /* Style the footer */
 footer {
